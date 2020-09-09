@@ -17,5 +17,9 @@
 - Sqlite3 Database
 - React Js
 
+### Design
 
+ - Backend 
+
+ ![screemshot](ecom/media/images/BackEndDesign.png)
 
