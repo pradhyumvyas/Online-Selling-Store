@@ -1,8 +1,11 @@
 import React from 'react'
 import ImageHelper from './helper/ImageHelper'
 import {Redirect} from 'react-router-dom';
+import { addItemToCart, removeItemFromCart } from './helper/CartHelper';
 
-const isAuthenticated =false
+
+
+const isAuthenticated = true
 
 const Card = ({
     product,
@@ -16,6 +19,7 @@ const Card = ({
 
     const addToCart = () =>{
         if(isAuthenticated){
+            addItemToCart(product, () =>{})
             console.log("Added To Cart");
         } else{
             console.log("Login Please !");
@@ -45,6 +49,7 @@ const Card = ({
                 <button type="" className="btn btn-block btn-outline-danger mt-2 mb-2"
                 onClick={() => {
                         // TODO Handle this cart
+                        removeItemFromCart(product.id);
                     console.log("Product Remove ffrom cart");
                 }}>
                     Remove From Cart
