@@ -31,8 +31,8 @@ const Signin = () => {
             data=>{
                 console.log("DATA" , data);
                 if(data.token){
-                    let sessionToken = data.token;
-                    authenticate(sessionToken, () => {
+                    // let sessionToken = data.token;
+                    authenticate(data, () => {
                         console.log("TOKEN ADDED");
                         setValues({
                             ...values,
@@ -129,7 +129,7 @@ const Signin = () => {
         <Base title="Welcome To SignIn" description="A T-shirt Store">
             {loadingMessage()}
             {signinForm()}
-            <p className="text-center"> {JSON.stringify(values)} </p>
+            {/* <p className="text-center"> {JSON.stringify(values)} </p> */}
 
             {performRedirect()}
         </Base>
