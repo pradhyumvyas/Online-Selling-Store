@@ -21,8 +21,8 @@ const Base = ({
             </div>
             <footer className="footer bg-success mt-auto py-3">
                 <div className="container-fluid bg-sucess text-white text-center py-3">
-                    <h4>If you got any questions, react me out ar Email</h4>
-                    <button type="" className="btn btn-warning btn-lg"> Contact Us</button>
+                    <h4>If you got any questions, reach me out</h4>
+                    <button type="" className="btn btn-warning btn-lg"> <a href="https://pradhyumvyas.github.io" target="_blank">here</a></button>
                     <div className="container">
                         <span className="text-info">
                             An Amazing E-Commerce website
