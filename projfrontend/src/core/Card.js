@@ -1,32 +1,36 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ImageHelper from './helper/ImageHelper'
 import {Redirect} from 'react-router-dom';
 import { addItemToCart, removeItemFromCart } from './helper/CartHelper';
+import { isAuthenticated } from '../auth/helper';
 
-
-
-const isAuthenticated = true
 
 const Card = ({
     product,
     addtoCart = true,
     removeFromCart = false,
+    reload = undefined,
+    setReload = f =>f,
+    // function(f){retuirn f}
 }) => {
+
+    const [redirect, setRedirect] = useState(false)
 
     const cardTitle = product ? product.name : "A Photo"
     const cardDescription = product ? product.description : "A default description"
     const cardPrice = product ? product.price : "A default price"
 
     const addToCart = () =>{
-        if(isAuthenticated){
-            addItemToCart(product, () =>{})
+        if(isAuthenticated()){
+            addItemToCart(product, () => setRedirect(true))
             console.log("Added To Cart");
         } else{
+            //  TODO: get Redirect to login page 
             console.log("Login Please !");
         }
     }
 
-    const getRedirect = redirect =>{
+    const getRedirect = (redirec) =>{
         if(redirect){
             return <Redirect to="/cart" />
         }
@@ -34,7 +38,7 @@ const Card = ({
 
     const showAddToCart = addToCart =>{
         return(
-            addToCart && (
+            addtoCart && (
                 <button type="" onClick={ addToCart } 
                     className="btn btn-block btn-outline-success mt-2 mb-2">
                     Add To Cart
@@ -50,6 +54,7 @@ const Card = ({
                 onClick={() => {
                         // TODO Handle this cart
                         removeItemFromCart(product.id);
+                        setReload(!reload)
                     console.log("Product Remove ffrom cart");
                 }}>
                     Remove From Cart
@@ -64,6 +69,7 @@ const Card = ({
                 <div className="card-header lead">{cardTitle}</div>
         
                 <div className="card-body">
+                    {getRedirect(redirect)}
                     <ImageHelper product={product} />
         
         
