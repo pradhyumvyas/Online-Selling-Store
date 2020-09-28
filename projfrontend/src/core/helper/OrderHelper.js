@@ -9,11 +9,12 @@ export const createOrder = (userId, token, orderData) => {
 
     return fetch(`${API}order/add/${userId}/${token}/`,{
         method: "POST",
-        body: formData
+        body: formData,
     })
-    .then(response => {
+    .then((response) => {
+        console.log("In the Then of Order Helper", response);
         return response.json();
     })
-    .catch(err => console.log(err))
+    .catch((err) => console.log(err))
 
 } 

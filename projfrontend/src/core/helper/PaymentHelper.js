@@ -11,12 +11,12 @@ export const getmeToken = (userId, token) => {
 }
 
 
-export const processPayment = (userId, token, paymentinfo) =>{
+export const processPayment = (userId, token, paymentInfo) =>{
 
     const formData = new FormData();
     
-    for(const name in paymentinfo){
-        formData.append(name, paymentinfo)
+    for(const name in paymentInfo){
+        formData.append(name, paymentInfo[name])
     }
 
     return fetch(`${API}payment/process/${userId}/${token}/`, {
@@ -24,6 +24,7 @@ export const processPayment = (userId, token, paymentinfo) =>{
         body : formData
     })
     .then((response) =>{
+        console.log("Error in Payment helper JS");
         return response.json();
     })
     .catch((err) => console.log(err));

@@ -68,8 +68,10 @@ const PaymentB = ({
                 amount : getAmount()
             }
             processPayment(userId, token, paymentData)
-            .then( response => {
+            .then( (response) => {
+                console.log("Process Payment method ", response);
                 if(response.error){
+                    console.log("Error Found");
                     if(response.code == '1'){
                         console.log("Payment Failed");
                         signout(() => {
