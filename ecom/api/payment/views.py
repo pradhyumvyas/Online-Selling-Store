@@ -14,8 +14,8 @@ gateway = braintree.BraintreeGateway(
     braintree.Configuration(
         braintree.Environment.Sandbox,
         merchant_id="8qhhfr2g5g76cyvr",
-        public_key="9g8qdqpkdf7hy94c",
-        private_key="9f1af9bbafcd064ae81d1ff204a5e529"
+        public_key="rk72cnnzqb2qt37m",
+        private_key="9b9af84fd7de6b14ab2263790b6bf8f6"
     )
 )
 

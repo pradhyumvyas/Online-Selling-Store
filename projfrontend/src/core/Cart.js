@@ -58,7 +58,7 @@ const Cart = () => {
                         <PaymentB products={products} setReload={setReload} />
                     ) : 
                     (
-                        <h3>Please login or add something in cart</h3>
+                        <h3>Please add something in cart</h3>
                     )}
                 </div>
 

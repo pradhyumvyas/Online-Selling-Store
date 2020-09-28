@@ -7,8 +7,8 @@ const Signin = () => {
 
     const [values, setValues] = useState({
         name:"",
-        email:"",
-        password:"",
+        email:"aniruddhparwal@gmail.com",
+        password:"ani12345",
         error:"",
         sucess:false,
         loading:false,
