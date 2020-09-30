@@ -55,7 +55,7 @@ const Card = ({
                         // TODO Handle this cart
                         removeItemFromCart(product.id);
                         setReload(!reload)
-                    console.log("Product Remove ffrom cart");
+                    console.log("Product Remove from cart");
                 }}>
                     Remove From Cart
                 </button>
@@ -64,32 +64,34 @@ const Card = ({
     }
 
     return (
-        <div className="cardDesign">
-            <div className="card text-white bg-dark border border-info"> 
-                <div className="card-header lead">{cardTitle}</div>
-        
-                <div className="card-body">
-                    {getRedirect(redirect)}
-                    <ImageHelper product={product} />
-        
-        
-                    <p className="lead bg-success font-weight-normal text-wrap">
-                        {product.description }
-                    </p>
-        
-                    <p className="btn btn-success rounded btn-sm px-4">$ {cardPrice} </p>
-                    <div className="row">
-                        <div className="col-12">
-                        {showAddToCart(addToCart)}
-        
-                        </div>
-                        <div className="col-12">
-                            {showRemovefromCart(removeFromCart)}
-                            
+        <div className="row">
+            <div className="cardDesign">
+                <div className="card text-white bg-dark border border-info"> 
+                    <div className="card-header lead">{cardTitle}</div>
+
+                    <div className="card-body">
+                        {getRedirect(redirect)}
+                        <ImageHelper product={product} />
+
+
+                        <p className="lead bg-success font-weight-normal text-wrap">
+                            {product.description }
+                        </p>
+
+                        <p className="btn btn-success rounded btn-sm px-4">$ {cardPrice} </p>
+                        <div className="row">
+                            <div className="col-12">
+                            {showAddToCart(addToCart)}
+
+                            </div>
+                            <div className="col-12">
+                                {showRemovefromCart(removeFromCart)}
+
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>            
+                </div>            
+            </div>        
         </div>
     )
 }

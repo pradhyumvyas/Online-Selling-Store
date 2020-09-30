@@ -24,7 +24,7 @@ const Base = ({
                     <h4>If you got any questions, reach me out</h4>
                     <button type="" className="btn btn-warning btn-lg"> <a href="https://pradhyumvyas.github.io" target="_blank">here</a></button>
                     <div className="container">
-                        <span className="text-info">
+                        <span className="">
                             An Amazing E-Commerce website
                         </span>
                     </div>
