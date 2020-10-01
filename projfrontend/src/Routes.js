@@ -9,6 +9,8 @@ import UserDashboard from './user/UserDashboard';
 import Signin from './user/Signin';
 import Cart from './core/Cart'
 
+import "./core/main_css/style.css"
+
 const Routes =() =>{
     return(
         <BrowserRouter>

@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {getProducts} from './helper/CoreApiCalls'
 import Base from './Base';
-import "../style.css"
 import Card from './Card';
 
 
@@ -23,17 +22,16 @@ export default function Home() {
         })
         .catch(err => console.log(err))
     }
-
     useEffect(() => {
         loadAllProducts();
     }, []);
 
     return (
         <Base title="Home Page" description="Welcome to the Shopping Site">
-            <div className="row">
+            <div className="cardSetting row">
                 {products.map((product, index) => {
                     return(
-                        <div key={index} className="col-md-4 col-sm-12 cardSetting">
+                        <div key={index} className="col-md-3 col-sm-12 cardSetting">
                             <Card product={product} />
                         </div>
                     )

@@ -1,5 +1,7 @@
 import React from 'react'
 import Menu from './Menu';
+import "./main_css/style.css"
+
 
 const Base = ({
     title="My Title",
