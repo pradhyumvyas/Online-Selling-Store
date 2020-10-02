@@ -9,7 +9,10 @@ const UserDashboard = ()  => {
             <Base title="User Dashboard">
                 {/* <h1>Welcome to user dashboard page</h1> */}
                 <div className="text-center profileSection">
-                    Name : {}
+                    {/* TODO:
+                    
+                        To create a Profile section for a particular USER
+                    */}
 
                 </div>
             </Base>
