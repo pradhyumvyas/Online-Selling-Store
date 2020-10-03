@@ -1,0 +1,28 @@
+.details{
+    // box-sizing: border-box;
+    font-size: large;
+    width: auto;
+    background-color: rgb(230, 221, 233);
+    color: black;
+    border: 0.6rem ;
+
+}
+table,
+td {
+    // border: 1px solid yellow;
+}
+
+thead,
+tfoot {
+    // background-color:yellow;
+    color: #fff;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.naming{
+    margin-top: 10px;
+}

@@ -15,4 +15,26 @@ body {
   text-align: center;
   margin: 10px;
 }
+
+.details {
+  font-size: large;
+  width: auto;
+  background-color: #e6dde9;
+  color: black;
+  border: 0.6rem;
+}
+
+thead,
+tfoot {
+  color: #fff;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.naming {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */

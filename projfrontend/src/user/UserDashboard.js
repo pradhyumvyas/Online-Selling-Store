@@ -1,19 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Base from '../core/Base'
-import {UserApiCalls} from './helper/UserApiCalls'
+
 
 
 const UserDashboard = ()  => {
     return (
         <div>
-            <Base title="User Dashboard">
-                {/* <h1>Welcome to user dashboard page</h1> */}
-                <div className="text-center profileSection">
-                    {/* TODO:
-                    
-                        To create a Profile section for a particular USER
-                    */}
-
+            <Base title="Your Dashboard" description="">
+                <div className="ul nav nav-tabs bg-dark">
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/user/Profile">Profile</Link>
+                    </li>
                 </div>
             </Base>
         </div>
