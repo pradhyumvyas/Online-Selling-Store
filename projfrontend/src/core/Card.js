@@ -32,7 +32,7 @@ const Card = ({
 
     const getRedirect = (redirec) =>{
         if(redirect){
-            return <Redirect to="/cart" />
+            return <Redirect to="/" />
         }
     }
 
