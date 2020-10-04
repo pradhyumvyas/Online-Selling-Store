@@ -17,11 +17,22 @@ body {
 }
 
 .details {
-  font-size: large;
-  width: auto;
-  background-color: #e6dde9;
+  font-size: medium;
+  background-color: #9c9a9c;
   color: black;
   border: 0.6rem;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+table,
+td {
+  height: 70px;
+}
+
+table,
+tr {
+  width: 100%;
 }
 
 thead,
@@ -34,7 +45,7 @@ tfoot {
   margin-right: auto;
 }
 
-.naming {
-  margin-top: 10px;
+.profileSection {
+  padding: 25px;
 }
 /*# sourceMappingURL=style.css.map */

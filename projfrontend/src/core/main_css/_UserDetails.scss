@@ -1,15 +1,24 @@
 .details{
     // box-sizing: border-box;
-    font-size: large;
-    width: auto;
-    background-color: rgb(230, 221, 233);
+    font-size: medium;
+    // width: auto;
+    background-color: rgb(156, 154, 156);
     color: black;
     border: 0.6rem ;
+    padding: 5px;
+    margin-top: 25px;
 
 }
 table,
 td {
     // border: 1px solid yellow;
+    height:70px;
+    // vertical-align: bottom;
+}
+
+table,
+tr{
+    width: 100%;
 }
 
 thead,
@@ -23,6 +32,6 @@ tfoot {
     margin-right: auto;
 }
 
-.naming{
-    margin-top: 10px;
+.profileSection{
+    padding: 25px;
 }
