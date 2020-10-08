@@ -78,6 +78,7 @@ def signout(request, id):
         return JsonResponse({'error':'Invalid user Id'})
 
     return JsonResponse({'success': 'Logout Sucess'})
+    
 
 
 class UserViewSet(viewsets.ModelViewSet):

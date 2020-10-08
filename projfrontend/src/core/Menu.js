@@ -59,6 +59,7 @@ const Menu = ({history, path})  => {
 
                     { isAuthenticated() &&(
                 <li className="nav-item">
+                    
                 <span 
                 onClick={() =>{
                     {signout(() =>{

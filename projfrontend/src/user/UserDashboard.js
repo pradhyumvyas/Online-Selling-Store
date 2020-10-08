@@ -10,7 +10,7 @@ import Profile,{profileSection} from './Profile'
 const UserDashboard = ()  => {
     return (
         <div>
-            <Base title="Your Dashboard" description="">
+            <Base title="Your Dashboard" description=" ">
                 <div className="ul nav nav-tabs bg-dark">
                     <li className="nav-item">
                         <Link className="nav-link" to="/user/Profile">Profile</Link>
