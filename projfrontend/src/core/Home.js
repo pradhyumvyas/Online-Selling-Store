@@ -2,12 +2,9 @@ import React, {useState, useEffect} from 'react'
 import {getProducts} from './helper/CoreApiCalls'
 import Base from './Base';
 import Card from './Card';
-import img1 from '../images/offer1.jpeg'
+import img1 from '../images/offer1.jpg'
 import img2 from '../images/offer2.png'
 import img3 from '../images/offer3.jpeg'
-
-
-
 
 export default function Home() {
 
