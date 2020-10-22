@@ -39,12 +39,12 @@ export default function Home() {
                   <div class="carousel-item active" data-interval="10000">
                     <img src={img1} class="d-block w-100" alt="..." height="170px" />
                   </div>
-                  <div class="carousel-item" data-interval="2000">
+                  {/* <div class="carousel-item" data-interval="2000">
                     <img src={img2} class="d-block w-100" alt="..." height="170px" />
                   </div>
                   <div class="carousel-item">
                     <img src={img3} class="d-block w-100" alt="..." height="170px" />
-                  </div>
+                  </div> */}
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
