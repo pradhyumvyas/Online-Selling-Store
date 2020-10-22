@@ -3,8 +3,8 @@ import {getProducts} from './helper/CoreApiCalls'
 import Base from './Base';
 import Card from './Card';
 import img1 from '../images/offer1.jpg'
-import img2 from '../images/offer2.png'
-import img3 from '../images/offer3.jpeg'
+import img2 from '../images/offer2.jpeg'
+import img3 from '../images/offer3.png'
 
 export default function Home() {
 
@@ -39,12 +39,12 @@ export default function Home() {
                   <div class="carousel-item active" data-interval="10000">
                     <img src={img1} class="d-block w-100" alt="..." height="170px" />
                   </div>
-                  {/* <div class="carousel-item" data-interval="2000">
+                  <div class="carousel-item" data-interval="2000">
                     <img src={img2} class="d-block w-100" alt="..." height="170px" />
                   </div>
                   <div class="carousel-item">
                     <img src={img3} class="d-block w-100" alt="..." height="170px" />
-                  </div> */}
+                  </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
