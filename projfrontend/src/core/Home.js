@@ -70,6 +70,10 @@ export default function Home() {
  */}
 
 
+TODO:
+1. Category will be added
+2. 
+
 <Carousel>
   <Carousel.Item interval={1000}>
     <img
