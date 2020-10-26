@@ -72,7 +72,8 @@ export default function Home() {
 
 TODO:
 1. Category will be added
-2. 
+2. Filter By Category
+3. Product description in Another page
 
 <Carousel>
   <Carousel.Item interval={1000}>
