@@ -70,7 +70,9 @@ export default function Home() {
  */}
 
 
-{/* TODO:
+{/* 
+
+TODO: (will be added)
 1. Category will be added
 2. Filter By Category
 3. Product description in Another page
@@ -78,9 +80,6 @@ export default function Home() {
 5. Redirect page from search bar 
 6. Redirect from nav bar gateory
 7. Responsive Pages
-
-
-
 */}
 
 <Carousel>
