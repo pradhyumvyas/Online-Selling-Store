@@ -70,10 +70,18 @@ export default function Home() {
  */}
 
 
-TODO:
+{/* TODO:
 1. Category will be added
 2. Filter By Category
 3. Product description in Another page
+4. Category in another page
+5. Redirect page from search bar 
+6. Redirect from nav bar gateory
+7. Responsive Pages
+
+
+
+*/}
 
 <Carousel>
   <Carousel.Item interval={1000}>
