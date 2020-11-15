@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background:linear-gradient(to left, #33ccff 0%, #ff99cc 102%);
 }
 
 .cardSetting {
@@ -18,7 +18,7 @@ body {
 
 .details {
   font-size: medium;
-  background-color: #9c9a9c;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 102%);
   color: black;
   border: 0.6rem;
   padding: 5px;

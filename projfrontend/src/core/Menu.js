@@ -15,7 +15,7 @@ const currentTab = (history, path) =>{
 const Menu = ({history, path})  => {
     return (
         <div>
-            <ul className="nav nav-tabs bg-dark">
+            <ul className="nav nav-tabs bg-dark ">
                 <li className="nav-item">
                     <Link className="nav-link" style={currentTab(history, "/")} to="/">Home</Link>
                 </li>
