@@ -20,14 +20,18 @@ const Base = ({
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+      <Nav.Link href="#features">Home</Nav.Link>
+      <Nav.Link href="#pricing">About Us</Nav.Link>
+      <NavDropdown title="Category" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Paintings</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Electronics</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Educations</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Clothes</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Rainy</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Winter</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Summer</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Special Offers</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Form inline>
