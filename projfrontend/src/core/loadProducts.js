@@ -11,5 +11,9 @@ import React from 'react'
 // export default loadProducts
 
 function loadPaintings() {
-    return 
+    return(
+        <div>
+            
+        </div>
+    )
 }
