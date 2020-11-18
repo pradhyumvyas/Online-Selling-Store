@@ -1,11 +1,15 @@
 import React from 'react'
 
-function loadProducts() {
-    return (
-        <div>
+// function loadProducts() {
+//     return (
+//         <div>
             
-        </div>
-    )
-}
+//         </div>
+//     )
+// }
 
-export default loadProducts
+// export default loadProducts
+
+function loadPaintings() {
+    return 
+}

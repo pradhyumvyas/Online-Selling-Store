@@ -4,8 +4,8 @@ import {getProducts} from './helper/CoreApiCalls'
 import Base from './Base';
 import Card from './Card';
 import img1 from '../images/offer1.jpg'
-import img2 from '../images/offer2.jpeg'
-import img3 from '../images/offer3.png'
+// import img2 from '../images/offer2.jpeg'
+// import img3 from '../images/offer3.png'
 
 export default function Home() {
 
