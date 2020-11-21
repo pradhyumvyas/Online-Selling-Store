@@ -100,26 +100,28 @@ const Signin = () => {
     
     const signinForm = () => {
         return(
-            <div className="row">
+            <div className="signin row">
                 <div className="col-md-6 offset-sm-3 text-left">
-                    <form>
-                        <div className="form-group">
-                            <label className="text-light"> Email</label>
-                                <input type="text" className="form-control"
-                                value={email}
-                                onChange={handleChange("email")}
-                                />
-                        </div>
-                        <div className="form-group">
-                            <label className="text-light"> password </label>
-                                <input type="password" className="form-control"
-                                value={password}
-                                onChange={handleChange("password")}
-                                />
-                        </div>
-                        <button className="btn btn-success btn-block" onClick={onSubmit}>
-                            Login</button>
-                    </form>
+                    <div className="signinForm">
+                        <form>
+                            <div className="form-group">
+                                <label className="text-light"> Email</label>
+                                    <input type="text" className="form-control"
+                                    value={email}
+                                    onChange={handleChange("email")}
+                                    />
+                            </div>
+                            <div className="form-group">
+                                <label className="text-light"> password </label>
+                                    <input type="password" className="form-control"
+                                    value={password}
+                                    onChange={handleChange("password")}
+                                    />
+                            </div>
+                            <button className="btn btn-success btn-block" onClick={onSubmit}>
+                                Login</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         )

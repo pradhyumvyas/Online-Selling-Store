@@ -1,5 +1,5 @@
 body{
-    background: black;
+    background:linear-gradient(to left, #33ccff 0%, #ff99cc 102%);
 }
 
 .cardSetting{
@@ -10,4 +10,8 @@ body{
     text-align: center;
     margin: 10px;
     
+}
+
+.signout{
+    margin-top: 4px;
 }

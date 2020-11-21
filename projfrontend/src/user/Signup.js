@@ -90,60 +90,62 @@ const Signup = () => {
 
     const signupForm = () => {
         return(
-            <div className="row">
+            <div className="signup row">
                 <div className="col-md-6 offset-sm-3 text-left">
-                    <form>
-                        <div className="form-group">
-                            <label className="text-light">Full Name</label>
-                                <input type="text" className="form-control"
-                                value={name}
-                                onChange={handleChange("name")}
-                                required
-                                />
-                        </div>
+                    <div className="signupForm">
+                        <form>
+                            <div className="form-group">
+                                <label className="text-light">Full Name</label>
+                                    <input type="text" className="form-control"
+                                    value={name}
+                                    onChange={handleChange("name")}
+                                    required
+                                    />
+                            </div>
 
-                        <div className="form-group">
-                            <label className="text-light">Phone No</label>
-                                <input type="text" className="form-control"
-                                value={phone}
-                                onChange={handleChange("phone")}
-                                required
-                                />
-                        </div>
-                        <div className="form-group">
-                            <label className="text-light">Gender</label>
-                                <input type="text" className="form-control"
-                                value={gender}
-                                onChange={handleChange("gender")}
-                                />
-                        </div>
-                        <div className="form-group">
-                            <label className="text-light"> Email</label>
-                                <input type="text" className="form-control"
-                                value={email}
-                                onChange={handleChange("email")}
-                                required
-                                />
-                        </div>
-                        <div className="form-group">
-                            <label className="text-light"> Password </label>
-                                <input type="password" className="form-control"
-                                value={password}
-                                onChange={handleChange("password")}
-                                required
-                                />
-                        </div>
-                        <div className="form-group">
-                            <label className="text-light">Confirm Password </label>
-                                <input type="password" className="form-control"
-                                value={confirmPassword}
-                                onChange={handleChange("confirmPassword")}
-                                required
-                                />
-                        </div>
-                        <button className="btn btn-success btn-block" onClick={onSubmit}>
-                            SignUp</button>
-                    </form>
+                            <div className="form-group">
+                                <label className="text-light">Phone No</label>
+                                    <input type="text" className="form-control"
+                                    value={phone}
+                                    onChange={handleChange("phone")}
+                                    required
+                                    />
+                            </div>
+                            <div className="form-group">
+                                <label className="text-light">Gender</label>
+                                    <input type="text" className="form-control"
+                                    value={gender}
+                                    onChange={handleChange("gender")}
+                                    />
+                            </div>
+                            <div className="form-group">
+                                <label className="text-light"> Email</label>
+                                    <input type="text" className="form-control"
+                                    value={email}
+                                    onChange={handleChange("email")}
+                                    required
+                                    />
+                            </div>
+                            <div className="form-group">
+                                <label className="text-light"> Password </label>
+                                    <input type="password" className="form-control"
+                                    value={password}
+                                    onChange={handleChange("password")}
+                                    required
+                                    />
+                            </div>
+                            <div className="form-group">
+                                <label className="text-light">Confirm Password </label>
+                                    <input type="password" className="form-control"
+                                    value={confirmPassword}
+                                    onChange={handleChange("confirmPassword")}
+                                    required
+                                    />
+                            </div>
+                            <button className="btn btn-primary btn-block" onClick={onSubmit}>
+                                SignUp</button>
+                        </form>
+                    </div>    
                 </div>
             </div>
         )

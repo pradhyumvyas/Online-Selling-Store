@@ -19,3 +19,4 @@ function loadPaintings() {
 }
 
 // TODO
+// : Load Products by single category

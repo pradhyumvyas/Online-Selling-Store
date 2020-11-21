@@ -7,7 +7,7 @@ import ReactBootstrap, {Jumbotron, Button, Col, Grid, Panel, FormGroup,NavDropdo
 const Base = ({
     title="My Title",
     description = "My Description",
-    className="bg-dark text-white p-4",
+    className="text-white p-4",
     children
 }) => {
     return (
