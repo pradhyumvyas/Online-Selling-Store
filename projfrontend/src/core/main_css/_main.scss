@@ -15,3 +15,14 @@ body{
 .signout{
     margin-top: 4px;
 }
+
+.footer{
+    position: relative;
+    // min-height: 100vh;
+    // height: 2.5rem; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    background: linear-gradient(to left,#ff99cc 0%,  #33ccff 102%);
+}

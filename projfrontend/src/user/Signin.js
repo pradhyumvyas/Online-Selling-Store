@@ -118,7 +118,7 @@ const Signin = () => {
                                     onChange={handleChange("password")}
                                     />
                             </div>
-                            <button className="btn btn-success btn-block" onClick={onSubmit}>
+                            <button className="btn btn-primary btn-block" onClick={onSubmit}>
                                 Login</button>
                         </form>
                     </div>

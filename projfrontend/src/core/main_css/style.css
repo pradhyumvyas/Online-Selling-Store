@@ -21,6 +21,16 @@ body {
   margin-top: 4px;
 }
 
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background: -webkit-gradient(linear, right top, left top, from(#ff99cc), color-stop(102%, #33ccff));
+  background: linear-gradient(to left, #ff99cc 0%, #33ccff 102%);
+}
+
 .details {
   font-size: medium;
   background-color: #9c9a9c;
@@ -72,10 +82,10 @@ tfoot {
 }
 
 .signin {
-  border-radius: 50px;
+  border-radius: 30px;
   border: 3px solid #3C7CA0;
   background-color: #3C7CA0;
-  padding: 10px;
+  padding: 30px 0;
   -webkit-box-shadow: 10px 10px #ff99cc;
           box-shadow: 10px 10px #ff99cc;
   text-align: center;
