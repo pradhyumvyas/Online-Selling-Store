@@ -13,9 +13,9 @@ import braintree
 gateway = braintree.BraintreeGateway(
     braintree.Configuration(
         braintree.Environment.Sandbox,
-        merchant_id="12345",
-        public_key="12345",
-        private_key="12345"
+        merchant_id="8qhhfr2g5g76cyvr",
+        public_key="rk72cnnzqb2qt37m",
+        private_key="9b9af84fd7de6b14ab2263790b6bf8f6"
     )
 )
 
