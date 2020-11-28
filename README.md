@@ -10,7 +10,7 @@
 
 - I was created a REST API for backend and use them In a frontend. For creating REST API I used a Django-rest-framework and grab whole data into the REST API (As a JSON Format). For grabbing data into JSON format I used Serialization. 
 
-- For the frontend, I used some NodeJS packages for handling REST API in the frontend site.
+- For the frontend, I used some NodeJS packages for handling REST API in the ReactJS like cross-header.
 
 ### Technology
 - Python3
